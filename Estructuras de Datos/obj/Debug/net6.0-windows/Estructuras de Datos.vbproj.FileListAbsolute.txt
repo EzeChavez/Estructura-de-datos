@@ -16,3 +16,9 @@ C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\
 C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras de Datos.genruntimeconfig.cache
 C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\ref\Estructuras de Datos.dll
 C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.Desarrolladorvb.resources
+C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.Arbol_binario_de_busqueda.resources
+C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.Cola.resources
+C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.Grafo.resources
+C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.ListaDoblementeEnlazada.resources
+C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.ListaEnlazadaSimple.resources
+C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.Pilavb.resources

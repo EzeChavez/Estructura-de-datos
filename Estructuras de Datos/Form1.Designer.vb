@@ -24,15 +24,15 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.SistemaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstructurasLinealesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EstructurasRamificadasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DatosDelDesarrolladorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstructurasLinealesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ColaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PilaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.ListaEnlazadaSimpleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ListaDoblementeEnlazadaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstructurasRamificadasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ArbolBinarioDeBusquedaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GrafoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
@@ -55,20 +55,6 @@ Partial Class Form1
         Me.SistemaToolStripMenuItem.Size = New System.Drawing.Size(75, 24)
         Me.SistemaToolStripMenuItem.Text = "Sistema"
         '
-        'EstructurasLinealesToolStripMenuItem
-        '
-        Me.EstructurasLinealesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ColaToolStripMenuItem, Me.PilaToolStripMenuItem, Me.ToolStripSeparator1, Me.ListaEnlazadaSimpleToolStripMenuItem, Me.ListaDoblementeEnlazadaToolStripMenuItem})
-        Me.EstructurasLinealesToolStripMenuItem.Name = "EstructurasLinealesToolStripMenuItem"
-        Me.EstructurasLinealesToolStripMenuItem.Size = New System.Drawing.Size(151, 24)
-        Me.EstructurasLinealesToolStripMenuItem.Text = "Estructuras Lineales"
-        '
-        'EstructurasRamificadasToolStripMenuItem
-        '
-        Me.EstructurasRamificadasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArbolBinarioDeBusquedaToolStripMenuItem, Me.GrafoToolStripMenuItem})
-        Me.EstructurasRamificadasToolStripMenuItem.Name = "EstructurasRamificadasToolStripMenuItem"
-        Me.EstructurasRamificadasToolStripMenuItem.Size = New System.Drawing.Size(179, 24)
-        Me.EstructurasRamificadasToolStripMenuItem.Text = "Estructuras Ramificadas"
-        '
         'DatosDelDesarrolladorToolStripMenuItem
         '
         Me.DatosDelDesarrolladorToolStripMenuItem.Name = "DatosDelDesarrolladorToolStripMenuItem"
@@ -80,6 +66,13 @@ Partial Class Form1
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(258, 26)
         Me.SalirToolStripMenuItem.Text = "Salir"
+        '
+        'EstructurasLinealesToolStripMenuItem
+        '
+        Me.EstructurasLinealesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ColaToolStripMenuItem, Me.PilaToolStripMenuItem, Me.ToolStripSeparator1, Me.ListaEnlazadaSimpleToolStripMenuItem, Me.ListaDoblementeEnlazadaToolStripMenuItem})
+        Me.EstructurasLinealesToolStripMenuItem.Name = "EstructurasLinealesToolStripMenuItem"
+        Me.EstructurasLinealesToolStripMenuItem.Size = New System.Drawing.Size(151, 24)
+        Me.EstructurasLinealesToolStripMenuItem.Text = "Estructuras Lineales"
         '
         'ColaToolStripMenuItem
         '
@@ -109,6 +102,13 @@ Partial Class Form1
         Me.ListaDoblementeEnlazadaToolStripMenuItem.Name = "ListaDoblementeEnlazadaToolStripMenuItem"
         Me.ListaDoblementeEnlazadaToolStripMenuItem.Size = New System.Drawing.Size(283, 26)
         Me.ListaDoblementeEnlazadaToolStripMenuItem.Text = "Lista doblemente enlazada...."
+        '
+        'EstructurasRamificadasToolStripMenuItem
+        '
+        Me.EstructurasRamificadasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArbolBinarioDeBusquedaToolStripMenuItem, Me.GrafoToolStripMenuItem})
+        Me.EstructurasRamificadasToolStripMenuItem.Name = "EstructurasRamificadasToolStripMenuItem"
+        Me.EstructurasRamificadasToolStripMenuItem.Size = New System.Drawing.Size(179, 24)
+        Me.EstructurasRamificadasToolStripMenuItem.Text = "Estructuras Ramificadas"
         '
         'ArbolBinarioDeBusquedaToolStripMenuItem
         '
