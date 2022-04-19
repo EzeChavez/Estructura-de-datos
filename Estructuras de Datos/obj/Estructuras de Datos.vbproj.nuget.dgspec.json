@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\Estructuras de Datos.vbproj": {}
+    "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\Estructuras de Datos.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\Estructuras de Datos.vbproj": {
+    "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\Estructuras de Datos.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\Estructuras de Datos.vbproj",
+        "projectUniqueName": "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\Estructuras de Datos.vbproj",
         "projectName": "Estructuras de Datos",
-        "projectPath": "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\Estructuras de Datos.vbproj",
+        "projectPath": "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\Estructuras de Datos.vbproj",
         "packagesPath": "C:\\Users\\eze_6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\obj\\",
+        "outputPath": "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eze_6\\AppData\\Roaming\\NuGet\\NuGet.Config",
