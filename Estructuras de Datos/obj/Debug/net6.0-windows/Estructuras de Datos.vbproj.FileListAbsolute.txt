@@ -22,3 +22,4 @@ C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\
 C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.ListaDoblementeEnlazada.resources
 C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.ListaEnlazadaSimple.resources
 C:\Users\eze_6\source\repos\Estructuras de Datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.Pilavb.resources
+C:\Users\eze_6\source\repos\Estructuras de datos\Estructuras de Datos\obj\Debug\net6.0-windows\Estructuras_de_Datos.Resources.resources

@@ -1,4 +1,8 @@
-﻿Public Class ClassCola
+﻿
+'Basicamente creo una clase donde declaro el objeto de tipo nodo y lo relaciono 
+' los punteros '
+Public Class ObjCola
+
     'Declaro los punteros'
     Private cpPrimero As Nodo
     Private cpUltimo As Nodo

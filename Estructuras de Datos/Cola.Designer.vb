@@ -44,9 +44,11 @@ Partial Class Cola
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.Dgv1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -106,9 +108,9 @@ Partial Class Cola
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.TBCodigo)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Location = New System.Drawing.Point(180, 44)
+        Me.GroupBox1.Location = New System.Drawing.Point(218, 44)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(222, 196)
+        Me.GroupBox1.Size = New System.Drawing.Size(224, 196)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Nuevo Elemento"
@@ -131,9 +133,9 @@ Partial Class Cola
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.Label5)
         Me.GroupBox2.Controls.Add(Me.Label6)
-        Me.GroupBox2.Location = New System.Drawing.Point(420, 44)
+        Me.GroupBox2.Location = New System.Drawing.Point(458, 44)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(222, 196)
+        Me.GroupBox2.Size = New System.Drawing.Size(224, 196)
         Me.GroupBox2.TabIndex = 7
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Elemento Eliminado"
@@ -230,7 +232,7 @@ Partial Class Cola
         Me.Dgv1.ReadOnly = True
         Me.Dgv1.RowHeadersWidth = 51
         Me.Dgv1.RowTemplate.Height = 29
-        Me.Dgv1.Size = New System.Drawing.Size(405, 184)
+        Me.Dgv1.Size = New System.Drawing.Size(445, 184)
         Me.Dgv1.TabIndex = 10
         '
         'Column1
@@ -257,11 +259,22 @@ Partial Class Cola
         Me.Column3.ReadOnly = True
         Me.Column3.Width = 125
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Estructuras_de_Datos.My.Resources.Resources.Cola
+        Me.PictureBox1.Location = New System.Drawing.Point(32, 44)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(182, 188)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.PictureBox1.TabIndex = 11
+        Me.PictureBox1.TabStop = False
+        '
         'Cola
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(654, 494)
+        Me.ClientSize = New System.Drawing.Size(699, 494)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Dgv1)
         Me.Controls.Add(Me.ListB)
         Me.Controls.Add(Me.Label7)
@@ -275,6 +288,7 @@ Partial Class Cola
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         CType(Me.Dgv1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -302,4 +316,5 @@ Partial Class Cola
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

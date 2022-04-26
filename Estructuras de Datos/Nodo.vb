@@ -1,10 +1,15 @@
-﻿Public Class Nodo
-    'creo una clase nodo con tres campoos privados'
+﻿'Creo una clase y declaro el objeto nodo'
+'Este objeto contendra la informacion en variables'
+'Y los punteros el puntero para determinar quien es el objeto siguiente'
+
+Public Class Nodo
+    'creo una clase nodo con tres campos privados'
     Private CpCodigo As Integer
     Private CpNombre As String
     Private CpTramite As String
     'Este es el puntero'
     Private CpSiguiente As Nodo
+
 
     'Declaro las propiedades de los campos'
     Public Property Codigo As Integer

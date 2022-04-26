@@ -1,6 +1,6 @@
 ﻿
 Public Class Cola
-    Private ObjCola As New ClassCola
+    Private ObjCola As New ObjCola
 
 
     Private Sub Cola_Load(sender As Object, e As EventArgs) Handles MyBase.Load
