@@ -31,12 +31,7 @@ Partial Class ListaEnlazadaSimple
         Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.BtnEliminar = New System.Windows.Forms.Button()
-        Me.LblTramiteEliminado = New System.Windows.Forms.Label()
-        Me.LblNombreEliminado = New System.Windows.Forms.Label()
-        Me.LblCodigoEliminado = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.BtnAgregar = New System.Windows.Forms.Button()
         Me.TBtramite = New System.Windows.Forms.TextBox()
@@ -46,6 +41,7 @@ Partial Class ListaEnlazadaSimple
         Me.TBCodigo = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.TBCodigoEliminado = New System.Windows.Forms.TextBox()
         CType(Me.Dgv1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -111,54 +107,23 @@ Partial Class ListaEnlazadaSimple
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.BtnEliminar)
-        Me.GroupBox2.Controls.Add(Me.LblTramiteEliminado)
-        Me.GroupBox2.Controls.Add(Me.LblNombreEliminado)
-        Me.GroupBox2.Controls.Add(Me.LblCodigoEliminado)
+        Me.GroupBox2.Controls.Add(Me.TBCodigoEliminado)
         Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Controls.Add(Me.Label5)
-        Me.GroupBox2.Controls.Add(Me.Label6)
         Me.GroupBox2.Location = New System.Drawing.Point(422, 242)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(460, 196)
         Me.GroupBox2.TabIndex = 18
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Elemento Eliminado"
+        Me.GroupBox2.Text = "Eliminar Elemento"
         '
         'BtnEliminar
         '
-        Me.BtnEliminar.Location = New System.Drawing.Point(78, 151)
+        Me.BtnEliminar.Location = New System.Drawing.Point(106, 78)
         Me.BtnEliminar.Name = "BtnEliminar"
         Me.BtnEliminar.Size = New System.Drawing.Size(103, 29)
         Me.BtnEliminar.TabIndex = 7
         Me.BtnEliminar.Text = "Eliminar"
         Me.BtnEliminar.UseVisualStyleBackColor = True
-        '
-        'LblTramiteEliminado
-        '
-        Me.LblTramiteEliminado.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.LblTramiteEliminado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.LblTramiteEliminado.Location = New System.Drawing.Point(78, 105)
-        Me.LblTramiteEliminado.Name = "LblTramiteEliminado"
-        Me.LblTramiteEliminado.Size = New System.Drawing.Size(103, 25)
-        Me.LblTramiteEliminado.TabIndex = 5
-        '
-        'LblNombreEliminado
-        '
-        Me.LblNombreEliminado.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.LblNombreEliminado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.LblNombreEliminado.Location = New System.Drawing.Point(78, 73)
-        Me.LblNombreEliminado.Name = "LblNombreEliminado"
-        Me.LblNombreEliminado.Size = New System.Drawing.Size(103, 25)
-        Me.LblNombreEliminado.TabIndex = 4
-        '
-        'LblCodigoEliminado
-        '
-        Me.LblCodigoEliminado.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.LblCodigoEliminado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.LblCodigoEliminado.Location = New System.Drawing.Point(78, 42)
-        Me.LblCodigoEliminado.Name = "LblCodigoEliminado"
-        Me.LblCodigoEliminado.Size = New System.Drawing.Size(103, 25)
-        Me.LblCodigoEliminado.TabIndex = 3
         '
         'Label4
         '
@@ -168,24 +133,6 @@ Partial Class ListaEnlazadaSimple
         Me.Label4.Size = New System.Drawing.Size(61, 20)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Codigo:"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(11, 78)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(67, 20)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "Nombre:"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(11, 108)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(62, 20)
-        Me.Label6.TabIndex = 2
-        Me.Label6.Text = "Trámite:"
         '
         'GroupBox1
         '
@@ -270,6 +217,13 @@ Partial Class ListaEnlazadaSimple
         Me.PictureBox1.TabIndex = 22
         Me.PictureBox1.TabStop = False
         '
+        'TBCodigoEliminado
+        '
+        Me.TBCodigoEliminado.Location = New System.Drawing.Point(84, 39)
+        Me.TBCodigoEliminado.Name = "TBCodigoEliminado"
+        Me.TBCodigoEliminado.Size = New System.Drawing.Size(125, 27)
+        Me.TBCodigoEliminado.TabIndex = 7
+        '
         'ListaEnlazadaSimple
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
@@ -303,12 +257,7 @@ Partial Class ListaEnlazadaSimple
     Friend WithEvents Label7 As Label
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents BtnEliminar As Button
-    Friend WithEvents LblTramiteEliminado As Label
-    Friend WithEvents LblNombreEliminado As Label
-    Friend WithEvents LblCodigoEliminado As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents BtnAgregar As Button
     Friend WithEvents TBtramite As TextBox
@@ -318,4 +267,5 @@ Partial Class ListaEnlazadaSimple
     Friend WithEvents TBCodigo As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents TBCodigoEliminado As TextBox
 End Class
