@@ -10,6 +10,10 @@ Public Class Nodo
     'Este es el puntero'
     Private CpSiguiente As Nodo
 
+    'Este es el puntero para la lista doblemente enlazada'
+    Private CpAnterior As Nodo
+
+
 
     'Declaro las propiedades de los campos'
     Public Property Codigo As Integer
@@ -49,4 +53,27 @@ Public Class Nodo
         End Set
     End Property
 
+    Public Property Anterior As Nodo
+        Get
+            Return CpAnterior
+
+        End Get
+        Set(value As Nodo)
+            CpAnterior = value
+        End Set
+    End Property
+    'Declaro el puntero'
+    Private CpPrimero As Nodo
+
+    'Declaro las propiedades'
+
+    Public Property primero As Nodo
+        Get
+            Return CpPrimero
+        End Get
+        Set(value As Nodo)
+            CpPrimero = value
+
+        End Set
+    End Property
 End Class
