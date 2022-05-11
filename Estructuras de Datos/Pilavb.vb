@@ -10,4 +10,10 @@
         ObjPila.ListarPila(Dgv1)
 
     End Sub
+
+    Private Sub BtnEliminar_Click(sender As Object, e As EventArgs) Handles BtnEliminar.Click
+        ObjPila.EliminarPila()
+        ObjPila.ListarPila(ListB)
+        ObjPila.ListarPila(Dgv1)
+    End Sub
 End Class
