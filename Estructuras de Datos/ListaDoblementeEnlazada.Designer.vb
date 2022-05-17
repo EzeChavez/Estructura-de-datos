@@ -237,7 +237,7 @@ Partial Class ListaDoblementeEnlazada
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(603, 675)
+        Me.ClientSize = New System.Drawing.Size(854, 731)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Dgv1)

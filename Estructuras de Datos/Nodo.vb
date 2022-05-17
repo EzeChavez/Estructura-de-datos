@@ -7,11 +7,18 @@ Public Class Nodo
     Private CpCodigo As Integer
     Private CpNombre As String
     Private CpTramite As String
-    'Este es el puntero'
+    'Este es el puntero siguiente'
     Private CpSiguiente As Nodo
 
     'Este es el puntero para la lista doblemente enlazada'
     Private CpAnterior As Nodo
+
+    'Declaro el puntero al primer elemento de la lista'
+    Private CpPrimero As Nodo
+
+    'Declaro los punteros para el Arbol "Similares a los punteros Anterior y Sieguiente en la lista enlazada"'
+    Private CpIzquierdo As Nodo
+    Private CpDerecho As Nodo
 
 
 
@@ -62,8 +69,7 @@ Public Class Nodo
             CpAnterior = value
         End Set
     End Property
-    'Declaro el puntero'
-    Private CpPrimero As Nodo
+
 
     'Declaro las propiedades'
 
@@ -73,6 +79,26 @@ Public Class Nodo
         End Get
         Set(value As Nodo)
             CpPrimero = value
+
+        End Set
+    End Property
+
+    Public Property Izquierdo As Nodo
+        Get
+            Return CpIzquierdo
+        End Get
+        Set(value As Nodo)
+            CpIzquierdo = value
+
+        End Set
+    End Property
+
+    Public Property Derecho As Nodo
+        Get
+            Return CpDerecho
+        End Get
+        Set(value As Nodo)
+            CpDerecho = value
 
         End Set
     End Property
