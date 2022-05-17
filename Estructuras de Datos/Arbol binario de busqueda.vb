@@ -18,4 +18,10 @@
         ''ObjArbol.ListarArbolGrilla(Dgv1)
 
     End Sub
+
+    Private Sub BtnEliminar_Click(sender As Object, e As EventArgs) Handles BtnEliminar.Click
+        ObjArbol.EliminarNodoArbol(TBCodigoEliminado.Text)
+        ''ObjArbol.ListarArbol(ListB)
+        ''ObjArbol.ListarArbolGrilla(Dgv1)
+    End Sub
 End Class

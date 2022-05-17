@@ -83,8 +83,10 @@
     Public Sub Equilibrar()
         i = 0
         GrabarVectorInOrden(Raiz)
+
         Raiz = Nothing
         EquilibrarArbol(0, i - 1)
+        MessageBox.Show("Arbol equilibrado!", "EXITO")
     End Sub
 
     Public Sub GrabarVectorInOrden(NodoPadre As Nodo)
@@ -107,7 +109,28 @@
             EquilibrarArbol(m + 1, fin)
 
         End If
+        MessageBox.Show("Arbol equilibrado!", "EXITO")
     End Sub
 
+    Public Sub EliminarNodoArbol(codigo As Integer)
+        i = 0
+        GrabarVector(Raiz, codigo)
+        Raiz = Nothing
+        EquilibrarArbol(0, i - 1)
+    End Sub
+
+    Private Sub GrabarVector(NodoPadre As Nodo, Codigo As Integer)
+        If NodoPadre.Izquierdo IsNot Nothing Then
+            GrabarVector(NodoPadre.Izquierdo, Codigo)
+        End If
+
+        If NodoPadre.Codigo <> Codigo Then
+            Vector(i) = NodoPadre
+            i += 1
+        End If
+        If NodoPadre.Derecho IsNot Nothing Then
+            GrabarVector(NodoPadre.Derecho, Codigo)
+        End If
+    End Sub
 
 End Class
