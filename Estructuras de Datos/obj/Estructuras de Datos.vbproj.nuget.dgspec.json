@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\Estructuras de Datos.vbproj": {}
+    "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\Estructuras de Datos.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\Estructuras de Datos.vbproj": {
+    "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\Estructuras de Datos.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\Estructuras de Datos.vbproj",
+        "projectUniqueName": "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\Estructuras de Datos.vbproj",
         "projectName": "Estructuras de Datos",
-        "projectPath": "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\Estructuras de Datos.vbproj",
+        "projectPath": "C:\\Users\\eze_6\\source\\repos\\Estructuras de Datos\\Estructuras de Datos\\Estructuras de Datos.vbproj",
         "packagesPath": "C:\\Users\\eze_6\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\eze_6\\source\\repos\\Estructuras de datos\\Estructuras de Datos\\obj\\",
         "projectStyle": "PackageReference",
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,21 +7,19 @@
         Nvos.Codigo = TBCodigo.Text
         Nvos.Nombre = TBNombre.Text
         Nvos.Tramite = TBtramite.Text
-        ObjArbol.AgregarNodoArbol(Nvos)
-        ObjArbol.ListarArbol(ListB)
+        ObjArbol.AgregarNodoArbol(TBCodigo.Text, TBNombre.Text, TBtramite.Text)
         ObjArbol.ListarArbolGrilla(Dgv1)
     End Sub
 
     Private Sub BtnEquilibrar_Click(sender As Object, e As EventArgs) Handles BtnEquilibrar.Click
         ObjArbol.Equilibrar()
-        ''ObjArbol.ListarArbol(ListB)
-        ''ObjArbol.ListarArbolGrilla(Dgv1)
+        ObjArbol.ListarArbolGrilla(Dgv1)
+        MessageBox.Show("Arbol Equilibrado", "Exito")
 
     End Sub
 
     Private Sub BtnEliminar_Click(sender As Object, e As EventArgs) Handles BtnEliminar.Click
         ObjArbol.EliminarNodoArbol(TBCodigoEliminado.Text)
-        ''ObjArbol.ListarArbol(ListB)
-        ''ObjArbol.ListarArbolGrilla(Dgv1)
+        ObjArbol.ListarArbolGrilla(Dgv1)
     End Sub
 End Class

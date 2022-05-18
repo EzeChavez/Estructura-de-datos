@@ -22,13 +22,12 @@ Partial Class Arbol_binario_de_busqueda
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Arbol_binario_de_busqueda))
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Dgv1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ListB = New System.Windows.Forms.ListBox()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.BtnEliminar = New System.Windows.Forms.Button()
         Me.TBCodigoEliminado = New System.Windows.Forms.TextBox()
@@ -43,6 +42,7 @@ Partial Class Arbol_binario_de_busqueda
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BtnEquilibrar = New System.Windows.Forms.Button()
+        Me.PrintPreviewDialog1 = New System.Windows.Forms.PrintPreviewDialog()
         CType(Me.Dgv1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -64,12 +64,12 @@ Partial Class Arbol_binario_de_busqueda
         Me.Dgv1.AllowUserToDeleteRows = False
         Me.Dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Dgv1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.Dgv1.Location = New System.Drawing.Point(211, 353)
+        Me.Dgv1.Location = New System.Drawing.Point(45, 353)
         Me.Dgv1.Name = "Dgv1"
         Me.Dgv1.ReadOnly = True
         Me.Dgv1.RowHeadersWidth = 51
         Me.Dgv1.RowTemplate.Height = 29
-        Me.Dgv1.Size = New System.Drawing.Size(424, 247)
+        Me.Dgv1.Size = New System.Drawing.Size(590, 247)
         Me.Dgv1.TabIndex = 34
         '
         'Column1
@@ -96,32 +96,14 @@ Partial Class Arbol_binario_de_busqueda
         Me.Column3.ReadOnly = True
         Me.Column3.Width = 125
         '
-        'ListB
-        '
-        Me.ListB.FormattingEnabled = True
-        Me.ListB.ItemHeight = 20
-        Me.ListB.Location = New System.Drawing.Point(45, 353)
-        Me.ListB.Name = "ListB"
-        Me.ListB.Size = New System.Drawing.Size(160, 244)
-        Me.ListB.TabIndex = 33
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(45, 330)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(61, 20)
-        Me.Label7.TabIndex = 32
-        Me.Label7.Text = "Listado "
-        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.BtnEliminar)
         Me.GroupBox2.Controls.Add(Me.TBCodigoEliminado)
         Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Location = New System.Drawing.Point(311, 134)
+        Me.GroupBox2.Location = New System.Drawing.Point(305, 130)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(315, 196)
+        Me.GroupBox2.Size = New System.Drawing.Size(330, 187)
         Me.GroupBox2.TabIndex = 31
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Eliminar Elemento"
@@ -236,12 +218,22 @@ Partial Class Arbol_binario_de_busqueda
         '
         'BtnEquilibrar
         '
-        Me.BtnEquilibrar.Location = New System.Drawing.Point(174, 27)
+        Me.BtnEquilibrar.Location = New System.Drawing.Point(174, 12)
         Me.BtnEquilibrar.Name = "BtnEquilibrar"
-        Me.BtnEquilibrar.Size = New System.Drawing.Size(105, 74)
+        Me.BtnEquilibrar.Size = New System.Drawing.Size(461, 103)
         Me.BtnEquilibrar.TabIndex = 38
         Me.BtnEquilibrar.Text = "Equilibrar"
         Me.BtnEquilibrar.UseVisualStyleBackColor = True
+        '
+        'PrintPreviewDialog1
+        '
+        Me.PrintPreviewDialog1.AutoScrollMargin = New System.Drawing.Size(0, 0)
+        Me.PrintPreviewDialog1.AutoScrollMinSize = New System.Drawing.Size(0, 0)
+        Me.PrintPreviewDialog1.ClientSize = New System.Drawing.Size(400, 300)
+        Me.PrintPreviewDialog1.Enabled = True
+        Me.PrintPreviewDialog1.Icon = CType(resources.GetObject("PrintPreviewDialog1.Icon"), System.Drawing.Icon)
+        Me.PrintPreviewDialog1.Name = "PrintPreviewDialog1"
+        Me.PrintPreviewDialog1.Visible = False
         '
         'Arbol_binario_de_busqueda
         '
@@ -252,8 +244,6 @@ Partial Class Arbol_binario_de_busqueda
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Dgv1)
-        Me.Controls.Add(Me.ListB)
-        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Arbol_binario_de_busqueda"
@@ -275,8 +265,6 @@ Partial Class Arbol_binario_de_busqueda
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents ListB As ListBox
-    Friend WithEvents Label7 As Label
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents BtnEliminar As Button
     Friend WithEvents TBCodigoEliminado As TextBox
@@ -291,4 +279,5 @@ Partial Class Arbol_binario_de_busqueda
     Friend WithEvents Label3 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BtnEquilibrar As Button
+    Friend WithEvents PrintPreviewDialog1 As PrintPreviewDialog
 End Class
